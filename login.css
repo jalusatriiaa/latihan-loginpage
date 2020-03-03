@@ -1,0 +1,65 @@
+body{
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+form{
+    width: 320px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
+
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+h2:hover{
+    color: #16a085;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background: #16a085;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #148b74;
+}
+
+img{
+    margin-left: 42px;
+    position: absolute;
+    margin-top: 27px;
+}
